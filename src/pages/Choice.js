@@ -84,7 +84,7 @@ export default function Choice() {
               alt="Teacher Avatar"
               className={styles.card_image}
             />
-            <button className={styles.card_button}>Teacher</button>
+            <button className={styles.card_button}>Teacher view</button>
           </div>
         </div>
       </div>
