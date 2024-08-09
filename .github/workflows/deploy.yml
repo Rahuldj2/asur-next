@@ -32,4 +32,6 @@ jobs:
             npm run build  # Build the project
             sudo pm2 delete all  # Stop all PM2 processes
             sudo pm2 start npm --name "asur-nextjs-app" -- start # Reload all PM2 processes to pick up the new code
+            sudo pm2 save --force
+            sudo pm2 startup
             sudo systemctl restart nginx
